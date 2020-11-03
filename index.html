@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample NBA App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+</head>
+<body ng-app="nbaApp">
+    
+    <div class='container'>
+        <div ng-controller='HomeController'>
+            <h1> {{ author }} </h1>
+        </div>
+    </div>
+
+    <!-- Modules -->
+    <script src="./src/app.js"></script>
+
+    <!-- controllers -->
+    <script src="./src/controllers/HomeController.js"></script>
+
+    <!-- services -->
+    <script src="./src/services/nbaService.js"></script>
+</body>
+</html>
